@@ -76,7 +76,7 @@ public class RandomDraw {
 
 			// draw randomly according to list length
 			int counter = 0;
-			while (counter <= length){
+			while (counter < length){
 				int randInt = rand.nextInt(genes.getAllGeneNames().size() - 1);
 
 				// check that gene isn't in list yet
